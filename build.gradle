@@ -15,8 +15,8 @@ repositories {
     mavenLocal()
     mavenCentral()
     maven {
-        name = "spigotmc-repo"
-        url = "https://hub.spigotmc.org/nexus/content/repositories/snapshots/"
+        name = "papermc-repo"
+        url = "https://repo.papermc.io/repository/maven-public/"
     }
     maven {
         url = "https://maven.enginehub.org/repo/"
