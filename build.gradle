@@ -73,9 +73,11 @@ processResources {
 
 publishing {
     publications {
-        gpr(MavenPublication) {
-            from(components.java)
+        mavenJava(MavenPublication) {
+            from components.java
+            groupId = 'dk.prayser'
             artifactId = project.name.toLowerCase()
+            version = '1.0'
         }
     }
 }
