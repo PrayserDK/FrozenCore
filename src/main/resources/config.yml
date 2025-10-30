@@ -1,0 +1,7 @@
+#FrozenCore
+#Lavet af PrayserDK
+
+listeners_enabled:
+  iron_door: true
+  block_hit: true
+  dura_fix: true

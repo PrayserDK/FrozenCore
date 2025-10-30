@@ -1,0 +1,7 @@
+name: FrozenCore
+version: '${version}'
+main: dk.prayser.frozencore.FrozenCore
+description: Core plugin for Frozen Development's plugins
+author: PrayserDK
+softdepend:
+  - Vault
